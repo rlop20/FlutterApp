@@ -1,3 +1,6 @@
+## TODO
+- Enable VM acceleration on your development computer.
+
 # FlutterApp
 This repo contains guides on installing Flutter and the development of an Android App. 
 
@@ -22,3 +25,34 @@ This repo contains guides on installing Flutter and the development of an Androi
     Click the %USERPROFILE%\dev\flutter\bin entry.
     Click Move Up until the Flutter entry sits at the top of the list.
     Click OK three times.
+- To enable these changes, close and reopen any existing command prompts and PowerShell instances.
+
+# Configure Android Development
+- To create Android apps with Flutter, verify that the following Android components have been installed.
+
+Android SDK Platform, API 34.0.0
+Android SDK Command-line Tools
+Android SDK Build-Tools
+Android SDK Platform-Tools
+Android Emulator
+
+# Configure your target Android device
+- press on 'more actions'
+- click on device and run
+
+# Agree to Android Licenses
+- Open powershell and run
+  flutter doctor --android-licenses
+
+# Check your development setup
+- In powershell, run:
+  flutter doctor
+
+## Bugs I encountered
+- Android toolchain cmdline-tools missing
+- Solution
+- - https://stackoverflow.com/questions/60475481/flutter-doctor-error-android-sdkmanager-tool-not-found-windows
+ 
+# Test Drive 
+
+  
