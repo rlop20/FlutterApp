@@ -54,5 +54,10 @@ Android Emulator
 - - https://stackoverflow.com/questions/60475481/flutter-doctor-error-android-sdkmanager-tool-not-found-windows
  
 # Test Drive 
-
+- To run your first app, launch Android Studio.
+- Click 'new'
+- Click 'empty'
+- Enter 'test drive' into the name and press 'create'
+- Add a configuration for 'test_drive'
+- Run and apply live edits to begin 
   
